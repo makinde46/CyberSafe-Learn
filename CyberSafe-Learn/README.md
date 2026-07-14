@@ -65,9 +65,9 @@ CyberSafe-Learn/
 
 ## Author
 
-**Name:** Your Name
+**Name:** Jeff Makumi Gitahi
 
-**Registration Number:** Your Registration Number
+**Registration Number:** BSCIT-05-0137/2024
 
 **Course:** Multimedia Systems and Applications
 
