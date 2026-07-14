@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CyberSafe Learn</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="loader">
+
+    <div class="loader-content">
+
+        <h1>🛡 CyberSafe Learn</h1>
+
+        <p>Initializing Security System...</p>
+
+        <div class="spinner"></div>
+
+    </div>
+
+</div>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<span>🛡</span>
+
+CyberSafe Learn
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#lessons">Lessons</a></li>
+
+<li><a href="#media">Media</a></li>
+
+<li><a href="#quiz">Quiz</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="darkMode">🌙</button>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+    <h1>Stay Safe Online</h1>
+
+    <p>Learn Cybersecurity the Interactive Way</p>
+
+    <a href="#about" class="btn">Start Learning</a>
+
+</section>
+
+<section id="about" class="about">
+    <section class="stats">
+
+    <div class="stat">
+        <i class="fas fa-shield-virus"></i>
+        <h2>95%</h2>
+        <p>Cyber attacks begin with phishing emails.</p>
+    </div>
+
+    <div class="stat">
+        <i class="fas fa-user-shield"></i>
+        <h2>4B+</h2>
+        <p>People use the Internet every day.</p>
+    </div>
+
+    <div class="stat">
+        <i class="fas fa-lock"></i>
+        <h2>100%</h2>
+        <p>Everyone can improve their online safety.</p>
+    </div>
+
+</section>
+</section>
+
+<p>
+
+CyberSafe Learn is an interactive multimedia platform that educates users on
+online safety, cyber threats, password security, phishing attacks, and safe
+internet practices using text, graphics, video, audio, animation, and quizzes.
+
+</p>
+
+<div class="about-boxes">
+
+<div class="box">
+
+<h3>🎯 Mission</h3>
+
+<p>Improve cybersecurity awareness among students.</p>
+
+</div>
+
+<div class="box">
+
+<h3>📚 Learn</h3>
+
+<p>Interactive lessons with multimedia content.</p>
+
+</div>
+
+<div class="box">
+
+<h3>🛡 Stay Safe</h3>
+
+<p>Practice safe online habits every day.</p>
+
+</div>
+
+</div>
+
+<section id="lessons" class="cards">
+
+<h2 class="section-title">Cybersecurity Lessons</h2>
+
+<div class="card-container">
+
+<div class="card">
+
+<img src="images/password.jpg">
+
+<h3>🔑 Password Security</h3>
+
+<p>
+Create strong passwords and enable two-factor authentication.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎣 Phishing</h3>
+
+<p>
+Learn how to recognize fake emails and malicious websites.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🦠 Malware</h3>
+
+<p>
+Understand viruses, ransomware and spyware.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Safe Browsing</h3>
+
+<p>
+Practice safe internet habits while browsing online.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>Cybersecurity Gallery</h2>
+
+<div class="gallery-grid">
+
+
+<div class="gallery-card">
+
+<img src="images/phishing.jpg">
+
+<h3>Phishing Protection</h3>
+
+<p>
+Learn how to identify fake emails and dangerous links.
+</p>
+
+</div>
+
+
+
+<div class="gallery-card">
+
+<img src="images/malware.jpg">
+
+<h3>Malware Awareness</h3>
+
+<p>
+Understand viruses, ransomware and spyware.
+</p>
+
+</div>
+
+
+
+<div class="gallery-card">
+
+<img src="images/password.jpg">
+
+<h3>Password Security</h3>
+
+<p>
+Create strong passwords and protect accounts.
+</p>
+
+</div>
+
+
+
+<div class="gallery-card">
+
+<img src="images/browsing.jpg">
+
+<h3>Safe Browsing</h3>
+
+<p>
+Practice secure internet habits.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section id="media" class="video">
+
+<h2>Cybersecurity Awareness Video</h2>
+
+<video controls width="400" , height="200">
+
+<source src="videos/cybersecurity.mp4" type="video/mp4">
+
+</video>
+
+</section>
+
+<section class="progress-section">
+
+<h2>Your Learning Progress</h2>
+
+<div class="progress-bar">
+
+<div class="progress-fill"></div>
+
+</div>
+
+</section>
+
+<section id="quiz" class="quiz">
+
+<h2>Cybersecurity Quiz</h2>
+
+<p>Enter your name before starting the quiz.</p>
+
+<input 
+type="text" 
+id="studentName" 
+placeholder="Enter your name">
+
+
+<button id="startQuiz">
+Start Quiz
+</button>
+
+
+<div id="quiz-container" style="display:none;">
+
+<h3 id="question"></h3>
+
+<div id="answers"></div>
+
+<button id="nextBtn">
+Next Question
+</button>
+
+<h2 id="score"></h2>
+
+</div>
+
+
+<div id="certificate">
+
+</div>
+
+</section>
+
+<section class="audio">
+
+<h2>Audio Narration</h2>
+
+<audio controls>
+
+<source src="audio/4Mr Frank White - ISSUES (OFFICIAL AUDIO)(MP3_160K).mp3" type="audio/mpeg">
+
+</audio>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="roddy">
+
+<input type="email" placeholder="roddyrich@gmail.com">
+
+<textarea
+placeholder="Your Message"
+rows="6"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>🛡 CyberSafe Learn</h3>
+
+<p>
+Interactive Multimedia Cybersecurity Awareness System
+</p>
+
+<p>
+Developed as a Multimedia Systems and Applications Project
+</p>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/quiz.js"></script>
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+</body>
+
+</html>
